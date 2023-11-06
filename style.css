@@ -1,0 +1,15 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.grid-element {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
+}
